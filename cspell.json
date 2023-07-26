@@ -1,0 +1,13 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "dictionaries": [
+        "lexicon"
+    ],
+    "dictionaryDefinitions": [
+        {
+            "name": "lexicon",
+            "path": "./lexicon.txt"
+        }
+    ]
+}
