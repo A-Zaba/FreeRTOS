@@ -199,8 +199,8 @@ jobs:
                   sudo apt-get update
                   sudo apt-get install --yes --no-install-recommends gcc-multilib
             - name: Set up CBMC runner
-              uses: skptak/CI-CD-GitHub-Actions/set_up_cbmc_runner@main
+              uses: A-zaba/CI-CD-GitHub-Actions/set_up_cbmc_runner@main
             - name: Run CBMC
-              uses: skptak/CI-CD-GitHub-Actions/run_cbmc@main
+              uses: A-zaba/CI-CD-GitHub-Actions/run_cbmc@main
               with:
                   proofs_dir: FreeRTOS/Test/CBMC/proofs
